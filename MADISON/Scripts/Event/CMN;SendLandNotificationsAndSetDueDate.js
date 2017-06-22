@@ -1,1 +1,0 @@
-CMN;SendLandNotificationsAndSetDueDate^`workflowGroup = workflowGroups[wfg];if (workflowGroup.getParentProcessID() == wfProcessID) {	childTasks = aa.workflow.getProcess(capId, workflowGroup.getProcessID()).getOutput();	}if (workflowGroup.getParentProcessID() == wfProcessID && childTasks != null) {	for (task in childTasks) branch("CMN;SendLandNotificationsAndSetDueDateLoop");	}

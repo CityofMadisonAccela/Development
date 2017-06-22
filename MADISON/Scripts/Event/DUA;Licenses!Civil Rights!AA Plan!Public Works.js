@@ -1,1 +1,0 @@
-DUA;Licenses!Civil Rights!AA Plan!Public Works^`showDebug = false;showMessage = false;var docAry = null;if (documentModelArray != null) {	docAry = documentModelArray.toArray();	}if (docAry) {	for(doc in docAry) if(docAry[doc].getDocCategory() == "AA Plan Resubmission") branch("CMN;Licenses!DCR!AA Plan!NA;ProcessResubmittal");	}if (currentUserID == "ITJBS") {	showDebug = true;	}
