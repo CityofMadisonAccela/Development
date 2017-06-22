@@ -1,0 +1,1 @@
+CMN;~!~!~!~;GET_APP_PARTS^`cmnGroup = appTypeArray[0];cmnType = appTypeArray[1];cmnSubType = appTypeArray[2];cmnCategory = appTypeArray[3];

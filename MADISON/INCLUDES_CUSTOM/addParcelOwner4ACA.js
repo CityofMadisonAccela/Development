@@ -1,0 +1,1 @@
+function addParcelOwner4ACA() {	var pExists = parcelExistsOnCap(capId);		if (!pExists) {		ad = cap.getAddressModel(); 		var RefAddressID = ad.getRefAddressId();		if (RefAddressID != null) {			addParcelAndOwnerFromRefAddress(RefAddressID); 			copyParcelGisObjects();		}	}}

@@ -1,0 +1,1 @@
+function listRequiredDocumentsACA(reqDocs) {	var returnCode = "1";	var doctypes = "";	for (category in reqDocs) {		doctypes += "<br>" + reqDocs[category]; 	}	var msg = "The following documents are required to proceed with this application.  Please attach a copy of each type:" + doctypes;	aa.env.setValue("ErrorCode", returnCode);	aa.env.setValue("ErrorMessage", msg);}

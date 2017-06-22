@@ -1,0 +1,1 @@
+CMN;Land!~!~!~;DetermineDocumentEmail^`docGroup = docArray[doc].getDocGroup();for (compGroup in docGroupArray) if (docGroup.equals(docGroupArray[compGroup])) docExists = true;

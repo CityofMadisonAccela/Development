@@ -1,0 +1,1 @@
+function licEditExpInfo (pExpStatus, pExpDate)	{	var lic = new licenseObject(null);	if (pExpStatus!=null)		{		lic.setStatus(pExpStatus);		}		if (pExpDate!=null)		{		lic.setExpiration(pExpDate);		}	}
