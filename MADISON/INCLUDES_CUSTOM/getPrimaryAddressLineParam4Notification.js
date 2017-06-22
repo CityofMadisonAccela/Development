@@ -1,1 +1,0 @@
-function getPrimaryAddressLineParam4Notification(params) {    var addressLine = "";	adResult = aa.address.getPrimaryAddressByCapID(capId,"Y");	if (adResult.getSuccess()) {		ad = adResult.getOutput().getAddressModel();		addParameter(params, "$$addressLine$$", ad.getDisplayAddress());	}	return params;}

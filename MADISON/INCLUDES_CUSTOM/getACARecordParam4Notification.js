@@ -1,1 +1,0 @@
-function getACARecordParam4Notification(params,acaUrl) {	addParameter(params, "$$acaRecordUrl$$", getACARecordURL(acaUrl));		return params;	}

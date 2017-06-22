@@ -1,1 +1,0 @@
-function loadGuideSheet(inspId) {	var itemCap = capId;	if (arguments.length == 2) itemCap = arguments[1];	var r = aa.inspection.getInspections(itemCap)	if (r.getSuccess())	 	{		var inspArray = r.getOutput();		for (i in inspArray)			{			if (inspArray[i].getIdNumber() == inspId)				{				var inspModel = inspArray[i].getInspection();

@@ -1,1 +1,0 @@
-function getACADeepLinkParam4Notification(params,acaUrl,pAppType,pAppTypeAlias,module) {	addParameter(params, "$$acaDeepLinkUrl$$", getDeepLinkUrl(acaUrl, pAppType, module));	addParameter(params, "$$acaDeepLinkAppTypeAlias$$", pAppTypeAlias);		return params;}

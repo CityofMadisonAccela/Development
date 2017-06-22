@@ -1,1 +1,0 @@
-function aaPlan_sort_array_asc(row1, row2) {  if (row1["Job Category"] > row2["Job Category"]) return 1;  if (row1["Job Category"] < row2["Job Category"]) return -1;  return 0;}

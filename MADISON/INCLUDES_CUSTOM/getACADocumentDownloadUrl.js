@@ -1,1 +1,0 @@
-function getACADocumentDownloadUrl(acaUrl,documentModel) {	var acaUrlResult = aa.document.getACADocumentUrl(acaUrl, documentModel);	if(acaUrlResult.getSuccess())	{		acaDocUrl = acaUrlResult.getOutput();		return acaDocUrl;	}	else	{		logDebug("Error retrieving ACA Document URL: " + acaUrlResult.getErrorType());		return false;	}}
