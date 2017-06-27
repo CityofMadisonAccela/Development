@@ -41,10 +41,7 @@ if (lookup(sEmailTextFile, "xMarthaSigLine") != undefined) {
 	}
 
 emailText += "</body></html>";
-sCcEmail = "rsjachrani@cityofmadison.com; 
-//changed to me
-
-";
+sCcEmail = "rsjachrani@cityofmadison.com;";
 if (true) {
 	sCcEmail += "rsjachrani@cityofmadison.com;
 	//changed to me
