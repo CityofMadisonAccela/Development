@@ -5,7 +5,11 @@
 		Riki 6/22/2017 - Initial conversion
 */	
 var sEmailTextFile = "AffirmativeActionEmailsBody";
-branch("CMN:Licenses/DCR/AA Plan/NA:getEmailAddrs");
+
+//	Riki 6/27/2017 - Converted to include
+//branch("CMN:Licenses/DCR/AA Plan/NA:getEmailAddrs");
+include("CMN;Licenses!DCR!AA Plan!NA;getEmailAddrs");
+
 emailSubject = "AA Plan - Approved - " + sBizName + " - Individual Developer" +  "-- " + capIDString;
 emailText = "<html><body><FONT face=calibri>";
 if (lookup(sEmailTextFile, "aaSalutation") != undefined) {
