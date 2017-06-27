@@ -58,4 +58,4 @@ if (!bNoEmail) {
 	cancel = false;
 	showMessage = true;
 	}
-`^
+//`^
